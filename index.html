@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samu Studios | Cartoon Games</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">Samu<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="hover-wobble">Início</a></li>
+            <li><a href="#hits" class="hover-wobble">Top Hits</a></li>
+            <li><a href="games.html" class="hover-wobble">Todos os Jogos</a></li>
+            <li><a href="#contact" class="btn-nav hover-bounce">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="ph ph-list"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content fade-in-up">
+            <div class="badge-container">
+                <span class="badge">🚀 +100 Milhões de Plays</span>
+            </div>
+            <h1>Criando mundos <br><span class="highlight">divertidos & viciantes.</span></h1>
+            <p>Somos o estúdio por trás dos seus jogos favoritos no Roblox.</p>
+            <div class="hero-btns">
+                <a href="games.html" class="btn btn-primary hover-bounce">Explorar Jogos</a>
+                <a href="#contact" class="btn btn-secondary hover-wobble">Fale Conosco</a>
+            </div>
+        </div>
+        
+        <div class="hero-image fade-in-up delay-200">
+            <div class="blob-bg"></div>
+            <img src="assets/MASCOT.png" alt="Mascote" class="profile-img">
+            
+            <div class="float-card card-code">
+                <i class="ph-duotone ph-game-controller"></i>
+                <span>Dev</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="marquee-wrapper">
+        <div class="marquee-track">
+            <span class="marquee-content">
+                • ROBLOX DEV • GAME DESIGN • 3D MODELING • SCRIPTING • UI DESIGN • MAP BUILDING • 
+                • ROBLOX DEV • GAME DESIGN • 3D MODELING • SCRIPTING • UI DESIGN • MAP BUILDING •
+            </span>
+            <span class="marquee-content">
+                • ROBLOX DEV • GAME DESIGN • 3D MODELING • SCRIPTING • UI DESIGN • MAP BUILDING • 
+                • ROBLOX DEV • GAME DESIGN • 3D MODELING • SCRIPTING • UI DESIGN • MAP BUILDING •
+            </span>
+        </div>
+    </div>
+
+    <section id="hits" class="top-hits">
+        <div class="section-header fade-in-up">
+            <h2 class="section-title">Nossos Top Hits 🏆</h2>
+            <p>Os favoritos da comunidade neste momento.</p>
+        </div>
+
+        <div class="hits-container">
+            <div class="card game-card featured fade-in-up">
+                <div class="game-thumb">
+                    <img src="assets/mar_sad.webp" alt="Game 1">
+                    <div class="live-badge">🔴 AO VIVO</div>
+                </div>
+                <div class="game-info">
+                    <h3>Steal a Brainrot <i class="ph-fill ph-heart" style="color:red"></i></h3>
+                    <div class="game-stats">
+                        <span class="stat"><i class="ph-bold ph-play"></i> 58.6B Plays</span>
+                        <span class="stat highlight-stat"><i class="ph-bold ph-users"></i> 298k Jogando</span>
+                    </div>
+                    <a href="#" class="btn btn-primary full-width hover-bounce">JOGAR AGORA</a>
+                </div>
+            </div>
+
+            <div class="card game-card fade-in-up delay-100">
+                <div class="game-thumb">
+                    <img src="assets/mar_sad.webp" alt="Game 2">
+                </div>
+                <div class="game-info">
+                    <h3>Escape Tsunami</h3>
+                    <div class="game-stats">
+                        <span class="stat"><i class="ph-bold ph-play"></i> 3.1B</span>
+                        <span class="stat"><i class="ph-bold ph-users"></i> 50k On</span>
+                    </div>
+                    <a href="#" class="btn btn-secondary full-width">Ver Detalhes</a>
+                </div>
+            </div>
+
+            <div class="card game-card fade-in-up delay-200">
+                <div class="game-thumb">
+                    <img src="assets/mar_sad.webp" alt="Game 3">
+                </div>
+                <div class="game-info">
+                    <h3>Grow a Garden 🌶️</h3>
+                    <div class="game-stats">
+                        <span class="stat"><i class="ph-bold ph-play"></i> 34.6B</span>
+                        <span class="stat"><i class="ph-bold ph-users"></i> 36k On</span>
+                    </div>
+                    <a href="#" class="btn btn-secondary full-width">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-btn-container">
+            <a href="games.html" class="btn btn-primary hover-bounce">
+                <i class="ph-bold ph-squares-four"></i> Ver Biblioteca Completa
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container fade-in-up">
+            <div class="contact-header">
+                <i class="ph-duotone ph-paper-plane-tilt icon-lg"></i>
+                <h2>Fale Conosco</h2>
+                <p>Envie bugs, sugestões ou parcerias. Chega direto no nosso Discord.</p>
+            </div>
+            
+            <form id="discordForm" class="cartoon-form">
+                <div class="input-group">
+                    <label>Seu E-mail (Opcional)</label>
+                    <input type="email" id="email" placeholder="nome@exemplo.com">
+                </div>
+
+                <div class="input-group">
+                    <label>Sua Mensagem</label>
+                    <textarea id="message" rows="4" placeholder="Escreva aqui..." required></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ageCheck" required>
+                    <label for="ageCheck">Confirmo que tenho mais de 13 anos.</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary full-width hover-bounce" id="submitBtn">
+                    Enviar Mensagem
+                </button>
+                <p id="formStatus" class="status-msg"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="socials">
+            <a href="#" class="social-link"><i class="ph-logo ph-discord-logo"></i></a>
+            <a href="#" class="social-link"><i class="ph-logo ph-twitter-logo"></i></a>
+            <a href="#" class="social-link"><i class="ph-logo ph-youtube-logo"></i></a>
+        </div>
+        <div class="copyright">© 2026 Samu Studios ,Todos Direitos Reservados a The Dog.</div>
+    </footer>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
