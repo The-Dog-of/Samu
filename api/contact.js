@@ -13,8 +13,8 @@ export default async function handler(req, res) {
   }
 
   const payload = {
-    username: "DoBig Bot",
-    avatar_url: "https://i.imgur.com/AfFp7pu.png",
+    username: "The Dog Bot",
+    avatar_url: "https://w0.peakpx.com/wallpaper/128/836/HD-wallpaper-meliodas-da-dragao-ira-nanatsu-no-pecado-taizai.jpg",
     embeds: [{
       title: "📩 Nova Mensagem do Site!",
       color: 9109547,
@@ -22,7 +22,7 @@ export default async function handler(req, res) {
         { name: "De:", value: email || "Anônimo", inline: true },
         { name: "Mensagem:", value: message }
       ],
-      footer: { text: "Via DoBig Vercel Website" },
+      footer: { text: "Via Samu Studio Website" },
       timestamp: new Date().toISOString()
     }]
   };
