@@ -1,7 +1,7 @@
 :root {
     --bg-color: #FFFBF2;
-    --text-main: #2C2420;
-    --accent: #8B5A2B;
+    --text-main: #202b2c;
+    --accent: #89d0dd;
     --accent-light: #E6D2B5;
     --white: #FFFFFF;
     --border: 3px solid var(--text-main);
